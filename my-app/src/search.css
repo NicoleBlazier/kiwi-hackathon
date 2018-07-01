@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+.title {
+    display: flex;
+}
+
+.search{
+    display: flex;
+    margin: 0 30rem;
+    text-align: center;
+}
+.selectdeparture{
+    margin: 0 4rem;
+}
+
+
+.displayflight {
+    display: flex;
+    margin: 4rem;
+    border: 1px solid black;
+}
+
+.time {
+    padding: 1rem;
+}
+
+.row {
+    padding: 1rem;
+}
+
+.price {
+    padding: 1rem;
+}
+.vlc{
+    background-image: url('https://static.visitvalencia.com/sites/default/files/styles/slider_home_full/public/widgets/items/images/valencia-small_3.png?itok=xF-aK3JC');
+    size: contain;
+}
